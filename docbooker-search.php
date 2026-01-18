@@ -1,6 +1,7 @@
 <?php
 /**
  * Plugin Name: DocBooker Frontend Search (BookingID-only)
+ * Plugin URI: https://dchamplegacy.com/docbooker-search
  * Description: Frontend search for DocBooker bookings. STRICT booking ID search only. Displays Booking ID, Patient Name, Status and Present Status with pill styling.
  * Version: 1.2
  * Author: Dchamp legacy
@@ -163,3 +164,4 @@ function docbooker_search_handler(){
         'items' => $rows,
     ]);
 }
+
